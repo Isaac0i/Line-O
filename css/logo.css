@@ -1,0 +1,11 @@
+#logo{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border: #1e1e1e solid 1px;
+   padding: 2.5vh;
+   border-radius: 10px;
+   box-shadow: #1e1e1e -2px 2px 0px ;
+   width: 2.7vw;
+   height: 2.7vw;
+}

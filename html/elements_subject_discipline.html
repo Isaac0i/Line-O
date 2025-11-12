@@ -1,0 +1,349 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/elements_subject_discipline.css">
+    <link rel="stylesheet" href="../css/logo.css">
+    <link rel="stylesheet" href="../css/fonts.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <!--nav structure-->
+    <nav>
+        <div class="strip_grad"></div>
+        <div class="strip_grad"></div>
+    </nav>
+        <!--header structure-->
+        <header>
+            <a href="../html/home.html">
+                <img id="logo" src="../img/line-O_logo.svg" alt="Logo Line-O">
+            </a>
+        </header>
+        <!-- main -->
+        <main>
+          <!-- intro section -->
+          <section id="elements_intro">
+            <span class="highlight_titles">Elementos</span>
+              <span id="elements_intro_text">
+                Os elementos HTML são as peças de um quebra-cabeça gigante que forma toda e qualquer página da internet.
+                Cada pedacinho de conteúdo que você vê (<span class="highlight_text">um título, um parágrafo, uma imagem, um link</span>) é um elemento HTML.
+                Eles não são apenas texto; são marcadores que dão significado e estrutura ao que o navegador vai exibir.
+              </span>
+            <!-- title some examples -->
+              <span class="highlight_titles">Olha Alguns Exemplos !</span>
+            <!-- some examples -->
+              <article id="board_some_examples">
+                <div id="board_tags">
+                  <span class="area_tags">&lt; <h4>!DOCTYPE html</h4>&gt;</span>
+                  <span class="area_tags">&lt; <h4>html</h4> &gt;</span>
+                  <span class="area_tags">&lt; <h4>head</h4> &gt;</span>
+                  <span class="area_tags">&lt; <h4>body</h4> &gt;</span>
+                  <span class="area_tags">&lt; <h4>footer</h4> &gt;</span>
+                </div>
+                <div id="board_tags_examples">
+                  <span class="area_examples">
+                    Elemento que mostra ao navegador qual versão do HTML está sendo utilizada.  
+                  </span>
+                  <span class="area_examples">
+                    Elemento que possuí todos os elementos HTML em si, ele encapsula todo o conteúdo da página.
+                  </span>
+                  <span class="area_examples">
+                    Elemento que contém os metadados da página, por exemplo, conjuntos de caracteres, links para folhas de estilo CSS e scripts Javascripts.
+                  </span>
+                  <span class="area_examples">
+                    Elemento que contém todo o conteúdo visível da página web que os usuários interagem, nele está todos os textos, imagens e outros.
+                  </span>
+                  <span class="area_examples">
+                    Elemento que representa o rodapé da página, nele ficam as informações de contato, lincenças, links de navegação e redes sociais.
+                  </span>
+                </div>
+              </article>
+
+            <!-- block elements vs line elements   -->
+              <span class="highlight_titles"> Elementos Bloco <h5>vs</h5> Elementos Linha</span>
+                <!-- block n' line text -->
+                <span id="block_line_text">
+                  Existem 3 tipos de elementos no HTML, tratando-se de seu comportamento de renderização, os chamados:
+                </span>
+                  <!-- sample elements -->
+                    <article id="samples_block-line">
+                      <div id="block_sample"> <span id="block_square"></span> Elementos Bloco (Block-level) </div>
+                      <div id="line_sample"> <span id="line_square"></span> Elementos Linha (Inline) </div>
+                      <div id="inline-block_sample"> <span id="inline-block_square"></span> Elementos Linha (Inline-block) </div>
+                    </article>
+                  <!-- samples line text -->
+                    <article id="sample_text">
+                    <!-- block example sample   -->
+                      <div class="sample_text_example">
+                        <span id="block_square"></span>
+                        <span class="text_example_in_sample">
+                          São elementos que se comportam como contêiners, ocupam 100% do espaço disponível e sempre começam em uma nova linha.
+                        </span>
+                    <!-- inline example sample -->
+                      </div>
+                      <div class="sample_text_example">
+                        <span id="line_square"></span>
+                        <span class="text_example_in_sample">
+                          São elementos que continuam na mesma linha,ocupam apenas o espaço disponível do conteúdo, comportando-se de uma forma linear.
+                        </span>
+                      </div>
+                    <!-- inline-block example sample -->
+                      <div class="sample_text_example">
+                        <span id="inline-block_square"></span>
+                        <span class="text_example_in_sample">
+                          São elementos intermediários que continuam na mesma linha e aceitam alterações em relação a altura e largura.
+                        </span>
+                      </div>
+                    </article>
+
+                    <!-- tags example of elements block | inline | inline-block -->
+              <span class="highlight_titles"> Por exemplo !</span>    
+                  
+                <article id="card_examples_tags">
+                  <!-- elemens block card -->
+                  <aside class="card_example_structure">
+                    <span class="card_title">Elementos Bloco</span>
+                    <div class="card_tags_area">
+                        <span class="card_tags">&lt;header&gt;</span>  
+                        <span class="card_tags">&lt;nav&gt;</span>  
+                        <span class="card_tags">&lt;main&gt;</span>  
+                        <span class="card_tags">&lt;article&gt;</span>  
+                        <span class="card_tags">&lt;div&gt;</span>  
+                        <span class="card_tags">&lt;section&gt;</span>  
+                    </div>
+                  </aside>
+                  <!-- elements inline card -->
+                  <aside class="card_example_structure">
+                    <span class="card_title">Elementos Linha</span>
+                    <div class="card_tags_area">
+                        <span class="card_tags">&lt;a&gt;</span>  
+                        <span class="card_tags">&lt;strong&gt;</span>  
+                        <span class="card_tags">&lt;em&gt;</span>  
+                        <span class="card_tags">&lt;i&gt;</span>  
+                        <span class="card_tags">&lt;input&gt;</span>  
+                    </div>
+                  </aside>
+                  <!-- elements inline-block card -->
+                  <aside class="card_example_structure">
+                    <span class="card_title">Elementos Linha-bloco</span>
+                    <div class="card_tags_area">
+                        <span class="card_tags">&lt;img&gt;</span>  
+                        <span class="card_tags">&lt;button&gt;</span>  
+                        <span class="card_tags">&lt;span&gt;</span>  
+                        <span class="card_tags">&lt;video&gt;</span>  
+                    </div>
+                  </aside>
+                </article>
+
+                <span id="phrase_end_card">
+                  Pensar nesses tipos de elemento é como pensar em três formas de ocupar espaço,
+                  e organizar todo seu conteúdo na página !
+                </span>
+
+                <article id="organization_board_structure">
+                  <aside id="organization_inner_board">
+                    <!-- organization elements block and line  -->
+                    <div class="organization_elements_block_inline">
+                      <!-- example element block "div" -->
+                        <span id="organization_div">
+                          <h6 id="org_div_title">Elemento Bloco</h6>
+                          <span id="org_div_tag">&lt;div&gt;</span>
+                          <span id="org_effect_div">
+                            <i class="bi bi-check2 check_icon"></i>
+                            <h6 id="effect_div_text">
+                              Altera <br>
+                              Altura e Largura
+                            </h6>
+                          </span>
+                        </span>
+                      <!-- example element inline "strong" -->
+                        <span id="organization_strong">
+                          <span id="org_effect_strong">
+                            <h6 id="org_strong_title">Elemento Linha</h6>
+                            <h6 id="effect_strong_text_ok">
+                              Altera <br>
+                              Altura e Largura
+                            </h6>
+                            <i class="bi bi-check2 check_icon"></i>
+                            <h6 id="effect_strong_text_Nok">
+                              Não Altera <br>
+                              Altura e Largura
+                            </h6>
+                              <i class="bi bi-x-lg x_icon"></i>
+                          </span>
+                          <span id="org_strong_tag">&lt;strong&gt;<h3 id="strong_text">Negrito</h3>&lt;/strong&gt;</span>
+                        </span>
+                    </div>
+                    <!-- organization elements inline-block -->
+                    <div class="organization_elements_block_inline">
+                    <!-- example element inline-block "span"     -->
+                      <span id="organization_span">
+                          <h6 id="org_span_title">Elemento Bloco Linha-bloco</h6>
+                          <span id="org_span_tag">&lt;span&gt; <h5 id="text_inner_span">Olá !</h5> &lt;/span&gt;</span>
+                          <span id="org_effect_span">
+                            <i class="bi bi-check2 check_icon"></i>
+                            <h6 id="effect_span_text">
+                              Altera <br>
+                              Altura e Largura
+                            </h6>
+                            <i class="bi bi-check2 check_icon"></i>
+                            <h6 id="effect_span_text">
+                              Altera <br>
+                              Altura e Largura
+                            </h6>
+                          </span>
+                        </span>
+                    </div>
+                  </aside>
+                </article>
+
+                <span class="highlight_titles">Semântica !</span>
+
+                <article id="semantic_structure">
+                                    
+                  <span id="semantic_text">
+                    A semântica serve para representar o significado conteúdo, principalmente aos navegadores,
+                    é como dizer aos navegadores e os mecânismos de busca o que cada elemento representa,
+                    olha alguns exemplos :
+                  </span>
+
+                  <aside id="semantic_examples">
+                  <!-- semantic nav example -->
+                    <div class="semantic_example_area">
+                      <span class="semantic_tag">&lt;nav&gt;</span>
+                        <span class="equal_signal">=</span>
+                      <span class="semantic_explaination">
+                        Elemento que representa o menu de navegação da página.
+                      </span>
+                    </div>
+                  <!-- semantic main example -->
+                    <div class="semantic_example_area">
+                      <span class="semantic_tag">&lt;main&gt;</span>
+                        <span class="equal_signal">=</span>
+                      <span class="semantic_explaination">
+                        Elemento que representa o conteúdo principal e único da página.
+                      </span>
+                    </div>
+                  <!-- semantic article example -->
+                    <div class="semantic_example_area">
+                      <span class="semantic_tag">&lt;article&gt;</span>
+                        <span class="equal_signal">=</span>
+                      <span class="semantic_explaination">
+                        Elemento que representa um conteúdo independente, como um post de blog. 
+                      </span>
+                    </div>
+                  <!-- semantic section example -->
+                    <div class="semantic_example_area">
+                      <span class="semantic_tag">&lt;section&gt;</span>
+                        <span class="equal_signal">=</span>
+                      <span class="semantic_explaination">
+                        Elemento que representa uma seção temática da página.
+                      </span>
+                    </div>
+                  <!-- semantic footer example -->
+                    <div class="semantic_example_area">
+                      <span class="semantic_tag">&lt;footer&gt;</span>
+                        <span class="equal_signal">=</span>
+                      <span class="semantic_explaination">
+                        Elemento que representa o rodapé da página.
+                      </span>
+                    </div>
+                  <!-- semantic div example -->
+                    <div class="semantic_example_area">
+                      <span class="semantic_tag">&lt;div&gt;</span>
+                        <span class="equal_signal">=</span>
+                      <span class="semantic_explaination">
+                        Elemento que representa uma caixa genérica  de bloco usada para agrupar elementos
+                        quando nenhuma tag semântica se encaixa.
+                      </span>
+                    </div>
+                  <!-- semantic form example -->
+                    <div class="semantic_example_area">
+                      <span class="semantic_tag">&lt;form&gt;</span>
+                        <span class="equal_signal">=</span>
+                      <span class="semantic_explaination">
+                        Elemento que representa os formulários, feito para coletar os dados do usuário.
+                      </span>
+                    </div>
+                  <!-- semantic button example -->
+                    <div class="semantic_example_area">
+                      <span class="semantic_tag">&lt;button&gt;</span>
+                        <span class="equal_signal">=</span>
+                      <span class="semantic_explaination">
+                        Elemento interativo usado para ações e eventos na página.
+                      </span>
+                    </div>
+
+                  </aside>
+                  
+                  <!-- middle phrase semantic  -->
+                  <span id="phrase_middle_semantic">
+                    Outro benefício da semântica no HTML é deixar o código muito mais legível e organizado,
+                    olhe uma comparação de códigos com semântica e sem:
+                  </span>
+
+                  <aside id="comparation_semantic_code">
+                    <div class="comparation_code">
+                      <span class="comparation_title">
+                        <p class="no_semantic_title">
+                          Código Não Semântico
+                        </p>
+                        <i class="bi bi-x-lg x_icon"></i>
+                      </span>
+                      <span class="code_example_border_out">
+                        <span class="code_example_border_inner">  
+                          <div class="code_tag_pink-1">&lt; <h6 class="code_example_text_pink">div</h6> &gt; </div> 
+                          <div class="code_tag_blue-1">&lt;<h6 class="code_example_text_blue">div</h6>&gt;<p class="code_tag_inner_text">Título</p> &lt;/<h6 class="code_example_text_blue">div</h6>&gt;</div>
+                          <div class="code_tag_red-1">&lt;<h6 class="code_example_text_red">div</h6>&gt;<p class="code_tag_inner_text">27 de junho de 2025</p> &lt;/<h6 class="code_example_text_red">div</h6>&gt;</div>
+                          <div class="code_tag_yellow-1">&lt;<h6 class="code_example_text_yellow">div</h6>&gt;<p class="code_tag_inner_text">Parágrafo</p> &lt;/<h6 class="code_example_text_yellow">div</h6>&gt;</div>
+                          <div class="code_tag_pink-2">&lt;/<h6 class="code_example_text_pink">div</h6>&gt;</div>
+                        </span>
+                      </span>
+                    </div>
+                    <div class="comparation_code">
+                    <span class="comparation_title">
+                        <p class="no_semantic_title">
+                          Código Semântico
+                        </p>
+                        <i class="bi bi-check2 check_icon"></i>
+                      </span>
+                      <span class="code_example_border_out">
+                        <span class="code_example_border_inner">  
+                          <div class="code_tag_pink-1">&lt; <h6 class="code_example_text_pink"> article </h6> &gt; </div> 
+                          <div class="code_tag_blue-1">&lt;<h6 class="code_example_text_blue"> h2 </h6>&gt;<p class="code_tag_inner_text"> Título </p> &lt;/<h6 class="code_example_text_blue"> h2 </h6>&gt;</div>
+                          <div class="code_tag_red-1">&lt;<h6 class="code_example_text_red"> p </h6>&gt;<p class="code_tag_inner_text"> 27 de junho de 2025 </p> &lt;/<h6 class="code_example_text_red"> p </h6>&gt;</div>
+                          <div class="code_tag_yellow-1">&lt;<h6 class="code_example_text_yellow"> p </h6>&gt;<p class="code_tag_inner_text"> Parágrafo </p> &lt;/<h6 class="code_example_text_yellow"> p </h6>&gt;</div>
+                          <div class="code_tag_pink-2">&lt;/<h6 class="code_example_text_pink"> article </h6>&gt;</div>
+                        </span>
+                      </span>                      
+                    </div>
+                  </aside>
+
+                  <span id="end_phrase_semantic">
+                    Utiliza-la não é somente uma boa prática, mas também um investimento em usabilidade,
+                    visiblidade e sustentabilidade do seu site e código !
+                  </span>
+                </article>
+              </section>
+              
+              <section id="sect_final">
+                <a href="../html/html_disciplines.html">
+                  <button id="button_return">Retornar</button>
+                </a>
+              </section>
+        </main>
+
+                       <!-- footer -->
+    <footer>
+        <span id="copy_footer">
+            <span class="copy_text">&copy; 2025 Line-O.</span> 
+            <span class="copy_text">Privacidade e Termos</span>
+        </span>
+        <div id="strip_footer"></div>
+    </footer>
+</body>
+</html>
+

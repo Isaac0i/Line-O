@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/html_exercices.css">
+    <link rel="stylesheet" href="../css/logo.css">
+    <link rel="stylesheet" href="../css/fonts.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <title>HTML Exercícios</title>
+</head>
+<body>
+     <!--nav structure-->
+    <nav>
+        <div class="strip_grad"></div>
+        <div class="strip_grad"></div>
+    </nav>
+        <!--header structure-->
+        <header>
+            <a href="../html/home.html">
+                <img id="logo" src="../img/line-O_logo.svg" alt="Logo Line-O">
+            </a>
+        </header>
+
+        <main>
+            <div id="exercices_title">
+                <h1>HTML</h1>
+                <h2>Exerícios</h2>
+            </div>
+            <section>
+                <!-- question 1 -->
+                <article>
+                    <p>1. Qual é a principal diferença entre um elemento HTML semântico e e um elemento genérico ?</p>
+                    <aside>
+                            <span class="option">A. Elementos Semânticos são apenas para estilização, enquanto gecêricos definem a estrutura.</span>
+                            <span class="option">B. Elementos semânticos não podem ser estilizados com CSS, mas genéricos sim.</span>
+                            <span class="option">C. Elementos semânticos descrevem o significado do conteúdo, enquanto genéricos são contêineres sem significado específico.</span>
+                            <span class="option"> D. Elementos genéricos sempre começam em uma nova linha, e semânticos não.</span>
+                    </aside>
+                </article>
+                <!-- question 2 -->
+                <article>
+                    <p>2. Qual é a característica principal de um elemento HTML de bloco ?</p>
+                    <aside>
+                            <span class="option">A. Ele ocupa apenas o espaço do seu conteúdo e não quebra a linha.</span>
+                            <span class="option">B. Ele pode ser estilizado com CSS, mas não aceita altura ou largura.</span>
+                            <span class="option">C. Ele é usado principalmente para formatar texto dentro de um parágrafo.</span>
+                            <span class="option"> D. Elementos genéricos sempre começam em uma nova linha, e semânticos não.</span>
+                     </aside>
+                </article>
+                <!-- question 3 -->
+                <article>
+                    <p>3. Um dos maiores benefícios de usar HTML semântico é a melhoria na acessibilidade. Por quê?</p>
+                    <aside>
+                            <span class="option">A. Porque ele faz o site carregar mais rápido para todos os usuários.</span>
+                            <span class="option">B. Porque ele automaticamente adiciona cores e estilos para contraste.</span>
+                            <span class="option">C. Porque ele evita a necessidade de usar JavaScript para interatividade.</span>
+                            <span class="option"> D. Porque ele permite que leitores de tela entendam a estrutura e o propósito do conteúdo para usuários com deficiência visual.</span>
+                     </aside>
+                </article>
+                <!-- question 4 -->
+                <article>
+                    <p>4. Quando é o momento mais apropriado para usar um elemento “ &lt; div &gt; ”?</p>
+                    <aside>
+                            <span class="option">A. Quando você precisa agrupar elementos puramente para estilização ou manipulação JavaScript, e não há uma tag semântica mais específica.</span>
+                            <span class="option">B. Para criar um link para outra página.</span>
+                            <span class="option">C. Sempre que o conteúdo for um título principal “ &lt; h1 &gt; ”.</span>
+                            <span class="option"> D. Para marcar um texto de forte importância dentro de um parágrafo.</span>
+                     </aside>
+                </article>
+                <!-- question 5 -->
+                <article>
+                    <p>5. Qual o comportamento de um elemento com “display: inline-block”?</p>
+                    <aside>
+                            <span class="option">A. Ele faz o texto ficar em negrito e itálico ao mesmo tempo.</span>
+                            <span class="option">B. Ele só pode conter outros elementos de bloco.</span>
+                            <span class="option">C. Ele flui como um elemento em linha, mas aceita propriedades de largura, altura, margem e preenchimento completos.</span>
+                            <span class="option"> D. Ele sempre começa em uma nova linha e ignora propriedades de largura e altura.</span>
+                     </aside>
+                </article>
+                <!-- question 6 -->
+                <article>
+                    <p>6. Qual elemento HTML semântico é mais apropriado para envolver um bloco de informações de contato do autor de um artigo específico?</p>
+                    <aside>
+                            <span class="option">A. &lt;div&gt;</span>
+                            <span class="option">B. &lt;footer&gt;</span>
+                            <span class="option">C. &lt;address&gt;</span>
+                            <span class="option"> D. &lt;article&gt;</span>
+                    </aside>
+                </article>
+                <!-- question 7 -->
+                <article>
+                    <p>7. Um dos benefícios da semântica HTML é a melhoria na manutenibilidade do código. O que isso significa?</p>
+                    <aside>
+                            <span class="option">A. O código HTML conserta erros sozinho.</span>
+                            <span class="option">B. O código se torna mais fácil de entender e modificar por outros desenvolvedores (ou por você no futuro).</span>
+                            <span class="option">C. O site nunca precisará de atualizações.</span>
+                            <span class="option"> D. O site funciona mais rápido em dispositivos antigos.</span>
+                     </aside>
+                </article>
+                <!-- question 8 -->
+                <article>
+                    <p>8. Qual é o propósito do elemento “ &lt; footer &gt; ”?</p>
+                    <aside>
+                            <span class="option">A. Para agrupar o conteúdo principal e exclusivo de uma página.</span>
+                            <span class="option">B. Para criar um rodapé fixo na parte inferior da tela, que não rola.</span>
+                            <span class="option">C. Para definir o cabeçalho principal de uma seção ou do documento.</span>
+                            <span class="option"> D. Para conter informações de autoria, direitos autorais, navegação secundária ou informações de contato de uma seção ou do documento.</span>
+                     </aside>
+                </article>
+            </section>
+
+                <script>
+                       // 1. Seleciona todos os elementos com a classe 'opcao'
+                    const opcoes = document.getElementsByClassName('.option');
+
+                    // 2. Itera sobre cada um e adiciona o evento de clique
+                    opcoes.forEach(option => {
+                    opcao.addEventListener('click', (event) => {
+                        // 3. Remove a classe 'selecionada' de todos os elementos
+                        opcoes.forEach(option => {
+                        op.classList.remove('selected');
+                        });
+
+                        // 4. Adiciona a classe 'selecionada' apenas ao elemento clicado
+                        evento.target.classList.add('selected');
+                    });
+                    });
+                </script>
+
+            <a href="../html/results.html">
+                <button type="submit" >Enviar</button>
+            </a>
+        </main>
+                       <!-- footer -->
+    <footer>
+        <div id="copy_footer">
+            <div class="copy_text">&copy; 2025 Line-O.</div> 
+            <div class="copy_text">Privacidade e Termos</div>
+        </div>
+        <div id="strip_footer"></div>
+    </footer>
+</body>
+</html>

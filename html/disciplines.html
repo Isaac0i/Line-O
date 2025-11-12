@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/disciplines.css">
+    <link rel="stylesheet" href="../css/logo.css">
+    <link rel="stylesheet" href="../css/fonts.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <title>Disciplinas</title>
+</head>
+<body>
+    <!--nav structure-->
+    <nav>
+        <div class="strip_grad"></div>
+        <div class="strip_grad"></div>
+    </nav>
+        <!--header structure-->
+        <header>
+            <a href="../html/home.html">
+                <img id="logo" src="../img/line-O_logo.svg" alt="Logo Line-O">
+            </a>
+        </header>
+            <!-- MAIN STRUCTURE -->
+            <main>
+                <!-- SECTION | SIDEBAR STRUCTURE -->
+                <section id="sidebar_structure">
+                    <!-- sidebar -->
+                    <aside id="sidebar_out">
+                        <div id="sidebar_in">
+                             <ul id="sidebar_board">
+                                <!-- home -->
+                                <a href="../html/home.html">
+                                   <li class="sidebar_links"><i class="bi bi-house-fill boots_icon"></i><span class="sidebar_links_span">Página Inicial</span></li>
+                               </a>
+                               <!-- profile -->
+                               <a href="../html/profile.html">
+                                   <li class="sidebar_links"><i class="bi bi-person-square boots_icon"></i><span class="sidebar_links_span">Perfil</span></li>
+                               </a>
+                               <!-- disciplines -->
+                               <a href="../html/disciplines.html" >
+                                   <li class="sidebar_links"><i class="bi bi-book-half boots_icon"></i><span class="sidebar_links_span">Disciplinas</span></li>
+                               </a>
+                               <!-- ranking -->
+                               <a href="../html/ranking.html">
+                                   <li class="sidebar_links"><i class="bi bi-bar-chart-fill boots_icon"></i><span class="sidebar_links_span">Ranking</span></li>
+                               </a>
+                               <!-- contact -->
+                               <a href="../html/contact.html">
+                                   <li class="sidebar_links"><i class="bi bi-telephone-fill boots_icon"></i><span class="sidebar_links_span">Contato</span></li>
+                               </a>
+                               <!-- about -->
+                               <a href="../html/about.html">
+                                   <li class="sidebar_links"><i class="bi bi-info-circle boots_icon"></i><span class="sidebar_links_span">Sobre</span></li>
+                               </a>
+                               <!-- login -->
+                               <a href="../html/login.html">
+                                   <li class="sidebar_links"><i class="bi bi-door-open boots_icon"></i><span class="sidebar_links_span">Sair</span></li>
+                               </a>
+                           </ul>
+                       </div>
+                   </aside>
+                </section>
+                <!-- SECTION | SEARCH BAR AND DISCIPLINES TITLE -->
+                <section id="search_structure">
+                    <aside id="search_bar_structure">
+                        <span id="text_search">
+                                Explore as disciplinas e comece sua jornada de aprendizado.
+                        </span>
+                            <!--search bar-->
+                            <div id="search_bar">
+                                <input type="search" name="" id="search_input">
+                                    <button id="search_bar_button"" disabled="disabled" type="submit">
+                                        <i class="bi bi-search boots_icon"></i>
+                                    </button>
+                            </div>
+                    </aside>
+                    <!--disciplines title-->
+                    <span id="title_disciplines">
+                        <span>
+                            Disciplinas
+                        </span>
+                            <div id="line_below_title"></div>
+                    </span>
+                    <!-- SECTION | DISCIPLINES STRUCTURE -->
+                    <article id="disciplines_structure">
+                        <!-- ASIDE | DROPDOWN TUTORIAL-->
+                        <aside class="dropdown_structure_tutorial">
+                            <div class="dropdown_toggle">
+                                <i  class="bi bi-caret-down-fill drop_icons"></i>
+                                <span class="title_dropdown">TUTORIAL</span>
+                            </div>
+                            <!-- content line | tutorial -->
+                            <div class="dropdown_content">
+                                <a href="../html/tutorial.html">
+                                    <button class="out_border_button" disabled="disabled">
+                                        <div class="in_area_button">
+                                            <div class="in_content">
+                                                <span class="inner_button_title">TUTORIAL</span>
+                                                <div class="division_line_tuto"></div>
+                                                <span class="inner_button_text">O Início de como são as coisas !</span>
+                                            </div>
+                                            <div id="inner_line_button"></div>
+                                        </div>
+                                    </button>
+                                </a>
+                            </div>
+                        </aside>
+                        <!-- ASIDE | DROPDOWN DISCIPLINES -->
+                        <aside class="dropdown_structure">
+                            <div class="dropdown_toggle">
+                                <i  class="bi bi-caret-down-fill drop_icons"></i>
+                                <span class="title_dropdown">DESENVOLVIMENTO WEB</span>
+                            </div>
+                            <!-- line content -->
+                            <div class="dropdown_content">
+                                <!-- div | HTML discipline -->
+                                <a href="../html/html_disciplines.html">
+                                    <button class="out_border_button" >
+                                        <div class="in_area_button">
+                                            <div class="in_content">
+                                                <span class="inner_button_title">HTML</span>
+                                                <div class="division_line_html"></div>
+                                                <span class="inner_button_text">Uma linguagem de marcação para estruturar páginas web!</span>
+                                            </div>
+                                            <div id="inner_line_button_html"></div>
+                                        </div>
+                                    </button>
+                                </a>
+                                <!-- div | CSS discipline blocked-->
+                                <a href="#">
+                                    <button class="out_border_button" disabled="disabled">
+                                        <div class="in_area_button">
+                                            <div class="in_content">
+                                                <span class="inner_button_title">CSS</span>
+                                                <div class="division_line_html"></div>
+                                                <span class="inner_button_text">CSS uma linguagem de estilo para tornar as páginas bonitas e responsivas!</span>
+                                            </div>
+                                            <div id="   "></div>
+                                        </div>
+                                    </button>
+                                </a>
+                                <!-- div | Javascript discipline blocked-->
+                                <a href="#">
+                                    <button class="out_border_button" disabled="disabled">
+                                        <div class="in_area_button">
+                                            <div class="in_content">
+                                                <span class="inner_button_title">Javascript</span>
+                                                <div class="division_line_html"></div>
+                                                <span class="inner_button_text">JavaScript uma linguagem de programação para adicionar interatividade e dinamismo às páginas web!</span>
+                                            </div>
+                                            <div id="inner_line_button_js"></div>
+                                        </div>
+                                    </button>
+                                </a>
+                            </div>
+                        </aside>           
+                <script>
+                    const dropdowns = document.querySelectorAll('.dropdown_structure, .dropdown_structure_tutorial');                
+                        dropdowns.forEach(dropdown => {
+                                // AQUI: Selecione o botão de alternância, e não o conteúdo.
+                                const toggleButton = dropdown.querySelector('.dropdown_toggle');
+                                toggleButton.addEventListener('click', function(){
+                                    dropdown.classList.toggle('active');
+                                   });
+                                 });
+                </script>
+                    </article>
+                </section>
+                <!-- SECTION | CARD INFO -->
+                <section id="info_card_structure_area">
+                    <aside id="card_info_out">
+                        <span id="info_title">Informações</span>
+                        <div id="informations"> </div>
+                    </aside>
+                </section>
+            </main>
+               <!-- footer -->
+    <footer>
+        <span id="copy_footer">
+            <span class="copy_text">&copy; 2025 Line-O.</span> 
+            <span class="copy_text">Privacidade e Termos</span>
+        </span>
+        <div id="strip_footer"></div>
+    </footer>
+</body>
+</html>

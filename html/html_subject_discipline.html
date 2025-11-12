@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/html_subject_discipline.css">
+    <link rel="stylesheet" href="../css/logo.css">
+    <link rel="stylesheet" href="../css/fonts.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+<title>Disciplina HTML</title>
+    <body>
+    <!--nav structure-->
+    <nav>
+        <div class="strip_grad"></div>
+        <div class="strip_grad"></div>
+    </nav>
+        <!--header structure-->
+        <header>
+            <a href="../html/home.html">
+                <img id="logo" src="../img/line-O_logo.svg" alt="Logo Line-O">
+            </a>
+        </header>
+            <!--main structure-->
+            <main>
+                <!-- section | introduction "what is html ?" -->
+                <section id="intro_html_section">
+                    <h2 id="intro_html_title">O que é o HTML ?</h2>
+                        <span id="intro_html_text">
+                            HTML é como o esqueleto de qualquer página que você vê na internet! Sabe quando você entra em um
+                            site, tipo o Google, o Facebook, ou até um blog ?
+                            <br>
+                            Tudo o que você vê ali - textos, imagens, vídeos, botões - está organizado e estruturado usando HTML.
+                        </span>
+                <!-- div | meaning of html -->
+                <div id="intro_meaning_docket">
+                    <!-- meaning docket up side -->
+                    <span id="meaning_docket_up"> <
+                        <span class="highlight_text">HTML</span>
+                            significa 
+                                <span class="highlight_text"> HyperText Markup Language</span>
+                            >
+                    </span>
+                        <!-- meaning docket down side -->
+                    <span id="meaning_docket_down">
+                        HyperText Markup Language = 
+                            <span class="highlight_text">Linguagem de Marcação de Hipertexto</span>
+                    </span>
+                </div>
+                    <!-- introduction phrase explain -->
+                    <p id="intro_html_phrase">
+                        A parte 
+                        <span class="highlight_text">"Marcação"</span> é a chave ! 
+                        É como se você tivesse um caderno e usasse <span class="highlight_text">etiquetas</span>
+                        para dizer:
+                    </p>
+                    <!-- article | introduction tags explained  -->
+                    <article id="intro_tags_explain">
+                        <!-- left column first tags "p" and "h1" -->
+                        <div id="tag_left_column">
+                            <!-- tag example "this is a paragraph" -->
+                            <div id="tag_example_p-tag">
+                                <div id="tag_title_p-tag">"Isso é um parágrafo"</div>
+                                <div id="tag_content_p-tag">
+                                    <code> &lt; <span class="highlight_text_tags_examples"> p </span> &gt; 
+                                            Olá ! 
+                                           &lt;
+                                            <span class="highlight_text_tags_examples"> /p </span> &gt;
+                                    </code>
+                                </div>
+                                
+                            </div>
+                            <!-- tag example "this is a title" -->
+                            <div id="tag_example_h1-tag">
+                                <div id="tag_title_h1-tag">"Isso aqui é um título"</div>
+                                <div id="tag_content_h1-tag">
+                                    <code> &lt; <span class="highlight_text_tags_examples">h1</span> &gt;
+                                        O HTML É ... 
+                                        &lt;
+                                        <span class="highlight_text_tags_examples"> /h1 </span> &gt;
+                                    </code>
+                                </div>
+                            </div>
+                            <i class="bi bi-tag-fill tag_yellow"></i>
+                            <i class="bi bi-tag-fill tag_pink"></i>
+                            <i class="bi bi-tag-fill tag_blue"></i>
+                        </div>
+                        <!-- middle column  -->
+                        <div id="tag_middle_column">
+                            <!-- img tag "this is a image" -->
+                            <div id="tag_example_img-tag">
+                                <div id="tag_title_img-tag">"aqui vai uma imagem"</div>
+                                <div id="tag_content_img-tag">
+                                    <code> &lt;<span class="highlight_text_blue">img</span>
+                                        <span class="highlight_text_tags_examples">src</span><span>="foto.jpg"</span><span>&gt;</span>
+                                    </code>
+                                </div>
+                                <div id="tag_image_example">
+                                    <i class="bi bi-image image_icon"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="equal_signal">=</div>
+                        <!-- right column -->
+                        <div id="tag_right_column">
+                            <div id="tag_right_column_inner">
+                                <div id="tag_example_p">Olá</div>
+                                <div id="tag_example_h1">O HTML É ...</div>
+                                <div id="tag_example_img">
+                                    <i class="bi bi-image image_icon_white"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- section | how html work  -->
+                <section id="how-work_section">
+                    <h2 id="title_how-work">Como ele Funciona ?</h2>
+                        <p id="text_how-work">
+                            O HTML usa umas coisinhas chamadas <span class="highlight_text">"tags"</span>. Tags são como
+                            <span class="highlight_text">etiquetas</span> que você coloca em volta do conteúdo para dizer
+                            ao navegador (o programa que você usa para navegar na internet, tipo Chrome, Firefox) o que cada
+                            parte é !
+                        </p>
+                <!-- example how tags work -->
+                    <article id="how-work_examples">
+                        <div class="how-work_blue_tag">
+                            <div id="how-work_blue_tag_inner">
+                                <code>&lt;<span class="highlight_text_blue"> Tag </span> &gt;</code>
+                            </div>
+                        </div>
+                            <span id="equal_signal_2">=</span>
+                        <div class="how-work_yellow_tag">
+                            <div id="how-work_yellow_tag_inner">
+                                <code>&lt; <span class="highlight_text_yellow">Etiqueta </span>&gt;</code>
+                            </div>
+                        </div>
+                        <i class="bi bi-tag-fill tag_yellow-2"></i>
+                        <i class="bi bi-tag-fill tag_blue-2"></i>
+                    </article>
+                        <!-- phrase tag examples -->
+                        <p id="how-work_phrase">Alguns exemplos de tags "etiquetas" são:</p>
+                            <!-- some tags examples  -->
+                            <aside id="how-work_tags_examples">
+                                <div class="tag_example_square"><code>&lt;<span id="tag-pink">h1</span>&gt;</code></div>
+                                <div class="tag_example_square"><code>&lt;<span id="tag-yellow">footer</span>&gt;</code></div>
+                                <div class="tag_example_square"><code>&lt;<span id="tag-red">header</span>&gt;</code></div>
+                                <div class="tag_example_square"><code>&lt;<span id="tag-blue">ul</span>&gt;</code></div>
+                                <div class="tag_example_square"><code>&lt;<span id="tag-green">div</span>&gt;</code></div>
+                            </aside>
+                </section>
+                <!-- section | why is important  -->
+                <section id="why_important_section">
+                    <!-- title "why is important" -->
+                    <h2 id="why_important_title">E por que ele é importante?</h2>
+                        <!-- explain text "why is important" -->
+                        <p id="why_important_text">
+                            Sem o HTML, a internet seria só um monte de texto sem forma, tipo um bloco de notas gigante e sem
+                            graça. Ele dá a estrutura e o significado para o conteúdo.
+                        </p>
+                        <!-- important points of html -->
+                            <article id="important_points">
+                                <!-- important points in contents subdivided  -->
+                                 <!-- structure and meaning of html  -->
+                                <aside class="point_content_division">
+                                    <div class="point_content_border_out">
+                                        <span class="icons_point">
+                                            <i class="bi bi-bricks bricks_icon"></i>    
+                                        </span>
+                                    </div>
+                                        <span class="point_content_text_structure">
+                                            <h3>Estrutura e Significado</h3>
+                                                <p class="point_text">
+                                                    O HTML dá estrutura e significado (semântica) ao conteúdo. Ele não serve apenas para
+                                                    exibir texto; ele define o que cada parte desse texto é.
+                                                </p>
+                                        </span>
+                                </aside>
+                                <!-- accessibility of html -->
+                                <aside class="point_content_division">
+                                    <div class="point_content_border_out">
+                                        <span class="icons_point">
+                                            <i class="bi bi-eyeglasses glasses_icon"></i>
+                                        </span>
+                                    </div>
+                                        <span class="point_content_text_structure">
+                                            <h3>Acessibilidade</h3>
+                                                <p class="point_text">
+                                                    É a base para uma web inclusiva. Pessoas com deficiência visual, por exemplo, usam
+                                                    leitores de tela para navegar na internet. Esses leitores dependem inteiramente das tags
+                                                    HTML para interpretar a página.
+                                                </p>
+                                        </span>
+                                </aside>
+                                <!-- compatibility -->
+                                <aside class="point_content_division">
+                                    <div class="point_content_border_out">
+                                        <span class="icons_point">
+                                            <i class="bi bi-puzzle-fill puzzle_icon"></i>
+                                        </span>
+                                    </div>
+                                        <span class="point_content_text_structure">
+                                                <h3>Compatibilidade</h3>
+                                                    <p class="point_text">
+                                                        É suportado por todos os navegadores, garantindo que as páginas web sejam exibidas
+                                                        corretamente em diferentes dispositivos.
+                                                    </p>
+                                        </span>
+                                </aside>
+                                <!-- the base for web -->
+                                <aside class="point_content_division">
+                                    <div class="point_content_border_out">
+                                        <span class="icons_point">  
+                                            <i class="bi bi-layers-fill layer_icon"></i>
+                                        </span>
+                                    </div>
+                                        <span class="point_content_text_structure">
+                                            <h3>Base para Web</h3>
+                                                <p class="point_text">
+                                                    O HTML é a fundação indispensável para construir qualquer coisa na web. Ele fornece a
+                                                    base para o conteúdo, essencial para o desenvolvimento web.
+                                                </p>
+                                        </span>
+                                </aside>
+                            </article>
+                            <p id="point_phrase_end">Resumindo o HTML, permite organizar e estruturar o conteúdo da web de forma lógica e visual.</p>
+                </section>
+                <!-- section | still about tags -->
+                <section id="still_about_tags_section">
+                    <h2 id="still_about_title">E ainda sobre as tags !</h2>
+                        <p class="still_about_tags_text">
+                            Vamos aprofundar um pouco mais em outros pontos importantes para ter uma visão mais completa. Já
+                            falamos muito de "<span class="highlight_text">tags</span>", certo? Mas o termo técnico mais
+                            correto para a unidade de construção do HTML é "<span class="highlight_text">elemento</span>".
+                        </p>
+
+                        <p class="still_about_tags_text">
+                            Um elemento HTML é composto por uma tag de abertura (<code>&lt;<span class="highlight_text">tag</span>&gt;</code>) o conteúdo e uma tag
+                            de fechamento (<code>&lt;/<span class="highlight_text">tag</span>&gt;</code>).
+                        </p>
+                            <!-- examples opening tags and ending tags -->
+                           <article id="still_about_tags_examples">
+                                <!-- opening tag -->
+                                <aside id="opening_tag">
+                                    <div id="opening_definition_code">
+                                        <span class="tag_definition_square">
+                                            <span class="tag_definition_square_inner">
+                                                <code>&lt;<span class="tag_orange_square">Tag</span>&gt;</code>
+                                            </span>
+                                        </span>
+                                        <h3>Tag de Abertura</h3>
+                                    </div>
+                                </aside>                                
+                                <aside id="ending_tag">
+                                    <div id="ending_definition_code">
+                                         <span class="tag_definition_square">
+                                            <span class="tag_definition_square_inner">
+                                                <code>&lt;/<span class="tag_blue_square">Tag</span>&gt;</code>
+                                            </span>
+                                         </span>
+                                        <h3>Tag de Fechamento</h3>
+                                    </div>
+                                </aside>
+                            </article>
+                        <p id="still_about_tags_phrase_end">E acerca sobre mais elementos, será abordado no próximo assunto.</p>
+                </section>
+                <a href="../html/html_disciplines.html">
+                    <button id="button_return">Retornar</button>
+                </a>
+            </main>
+                <!-- footer -->
+            <footer>
+                <span id="copy_footer">
+                    <span class="copy_text">&copy; 2025 Line-O.</span> 
+                    <span class="copy_text">Privacidade e Termos</span>
+                </span>
+                <div id="strip_footer"></div>
+            </footer>
+    </body> 
+</html>

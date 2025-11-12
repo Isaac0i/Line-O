@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/logo.css">
+    <link rel="stylesheet" href="../css/fonts.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <title>Página Inicial</title>
+</head>
+<body>
+<!--nav structure-->
+    <nav>
+        <div class="strip_grad"></div>
+        <div class="strip_grad"></div>
+    </nav>
+<!--header structure-->
+        <header>
+            <a href="#">
+                <img id="logo" src="../img/line-O_logo.svg" alt="Logo Line-O">
+            </a>
+        </header>
+<!--main structure-->
+<main>
+    <!--title hello user | homepage-->
+    <div id="title_user">
+            <div id="hello_user">
+                <span id="hello_span"> Olá, <span id="user_span">Usuário !</span>
+                </span>
+            </div>
+            <div id="bar_grad"></div>
+    </div>
+        <!--asides structure-->
+        <section>
+            <aside id="sidebar_structure">
+                <!--sidebar-->
+                    <div id="sidebar_out">
+                        <aside id="sidebar_in">
+                           <ul id="sidebar_board">
+                                <!-- home -->
+                                <a href="#">
+                                   <li class="sidebar_links"><i class="bi bi-house-fill boots_icon"></i><span class="sidebar_links_span">Página Inicial</span></li>
+                               </a>
+                               <!-- profile -->
+                               <a href="../html/profile.html">
+                                   <li class="sidebar_links"><i class="bi bi-person-square boots_icon"></i><span class="sidebar_links_span">Perfil</span></li>
+                               </a>
+                               <!-- disciplines -->
+                               <a href="../html/disciplines.html" >
+                                   <li class="sidebar_links"><i class="bi bi-book-half boots_icon"></i><span class="sidebar_links_span">Disciplinas</span></li>
+                               </a>
+                               <!-- ranking -->
+                               <a href="../html/ranking.html">
+                                   <li class="sidebar_links"><i class="bi bi-bar-chart-fill boots_icon"></i><span class="sidebar_links_span">Ranking</span></li>
+                               </a>
+                               <!-- contact -->
+                               <a href="../html/contact.html">
+                                   <li class="sidebar_links"><i class="bi bi-telephone-fill boots_icon"></i><span class="sidebar_links_span">Contato</span></li>
+                               </a>
+                               <!-- about -->
+                               <a href="../html/about.html">
+                                   <li class="sidebar_links"><i class="bi bi-info-circle boots_icon"></i><span class="sidebar_links_span">Sobre</span></li>
+                               </a>
+                               <!-- login -->
+                               <a href="../html/login.html">
+                                   <li class="sidebar_links"><i class="bi bi-door-open boots_icon"></i><span class="sidebar_links_span">Sair</span></li>
+                               </a>
+                           </ul>
+                        </aside>
+                    </div>
+                <!--card account-->
+                    <div id="account_card_out">
+                        <a href="../html/profile.html">
+                            <button  id="button_account">
+                                <img src="../img/icon_profile.svg" alt="" id="icon_account">
+                                    <div id="info_account">
+                                        <span id="title_account_span">Usuário</span>
+                                        <span id="email_account_span">user01@gmail.com</span>
+                                    </div>
+                            </button>
+                        </a>
+                        <span id="title_below_account">Minha Conta</span>
+                    </div> 
+            </aside>
+        <!--board structure-->
+            <aside id="board_structure">
+               <!--external border | board-->
+                <div id="board_out">
+                    <!--title text activities-->
+                        <div id="title_activity"> Atividades Realizadas</div>
+                        <!--internal border activities-->
+                            <article id="board_in">
+                                <div id="last_activity_line">Última Atividade Realizada</div>                       
+                                    <div class="activity_line"></div>                       
+                                    <div class="activity_line"></div>                       
+                                    <div class="activity_line"></div>                       
+                                    <div class="activity_line"></div>                       
+                            </article>
+               </div> 
+            <!--leader board -->
+                <div id="board_out_leader">
+                    <!--title text leader-->
+                    <div id="title_leader">Quadro de Líderes</div>
+                        <!--internal border leader board -->
+                        <aside id="board_in">
+                                <div id="info_position">
+                                    <!--position information-->
+                                    <div id="position_title">Pos.</div>
+                                    <div id="discent_title">Discente</div>
+                                    <div id="note_title">NT</div>
+                                    <div id="points_title">PTS</div>
+                                </div>                       
+                                <!--line positions users-->
+                                <div class="activity_line">
+                                    <div id="position_leader">1</div>
+                                    <div class="discent">Usuário</div>
+                                    <div class="note">34</div>
+                                    <div class="points">28.265</div>
+                                </div>                       
+                                <div class="activity_line">
+                                    <div class="position"></div>
+                                    <div class="discent"></div>
+                                    <div class="note"></div>
+                                    <div class="points"></div>
+                                </div>                       
+                                    <div class="activity_line"></div>                       
+                                    <div class="activity_line"></div>                       
+                        </aside>
+                     </div> 
+            </aside>
+            <!--leveling structure card-->
+            <aside id="leveling_structure">
+                <!--level card external border-->
+                <div id="level_card_out">
+                    <!--level card internal contente-->
+                        <aside id="level_card_in">
+                            <div class="leveling_content">
+                                <div id="level">Lvl. 12</div>
+                                <div id="experience_points">7.860 XP</div>
+                            </div>
+                            <!--divisory line-->
+                                <div id="divisory_line"></div>
+                            <div class="leveling_content">
+                                <div id="position_rank">12°</div>
+                                <div id="position_rank_title">Pos. Rank</div>
+                                <div id="title_rank">Técnico</div>
+                            </div>
+                        </aside>
+                    <div id="progress_bar">
+                        <progress value="4" max="10"></progress>
+                    </div>
+                </div>
+                <!--exercices card-->
+                <div id="exercices_card_out">
+                    <div id="exercices_title">Exercícios</div>
+                    <img id="exercice_img" src="" alt="">
+                </div>
+            </aside>
+        </section>        
+</main>
+<!-- footer-->
+    <footer>
+        <span id="copy_footer">
+            <span class="copy_text">&copy; 2025 Line-O.</span> 
+            <span class="copy_text">Privacidade e Termos</span>
+        </span>
+        <div id="strip_footer"></div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/register.css">
+    <link rel="stylesheet" href="../css/fonts.css">
+    <link rel="stylesheet" href="../css/logo.css">
+    <title>Line-O Cadastro</title>
+</head>
+<body>
+<!--header logo-->
+    <header>
+        <a href="#">
+            <img id="logo" src="../img/line-O_logo.svg" alt="Logo Line-O">
+        </a>
+    </header>
+
+<!--main structure-->
+<main>
+<!--text aside-->
+    <aside>
+        <!--text highlight-->
+        <div id="line_blue"></div>
+        <span id="text_aside">
+            <span id="text_asd_1">Seu Aprendizado</span>
+            <span id="text_asd_2">em pequenos</span>
+            <span id="gradient_text">pontos.</span>
+        </span>
+        <div id="line_gradient"></div>
+        <!--strips lines (IN Z INDEX [ -1] )-->
+        <section>
+            <div id="blue_strip"></div>
+            <div id="gradient_strip"></div>
+        </section>
+    </aside>
+<!--form register-->
+    <form action="/backend/cad.php" method="POST">
+        <strong>Crie sua conta</strong>
+        <div id="inputs">
+            <!--input name-->
+            <label for="name">Nome Completo</label>
+            <input type="text" name="name" id="name">
+            <!--input email-->
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email">
+            <!--division inputs -->
+            <div id="form_div">
+                <!--input age-->
+                <div id="div_tel">
+                    <label for="tel">Telefone (Celular)</label>
+                    <input id="telephone" type="tel" name="course">
+                </div>
+<!--input age-->
+                <div id="div_age">
+                    <label for="age">Idade</label>
+                    <input id="age" type="number" name="age">
+                </div>
+            </div>
+<!--input telephone-->
+            <label for="course">Curso</label>
+            <input type="text" name="course" id="course">
+<!--input password-->
+            <label for="password">Senha</label>
+            <input type="password" name="password" id="password">
+<!--input confirm_password-->
+            <label for="confirm_password">Confirmar Senha</label>
+            <input type="password" name="confirm_password">
+        </div>
+        <button type="submit">Cadastrar</button>
+<!--link login-->
+        <div id="login_access">Já possui uma conta? <a href="../html/login.html">Entre</a></div>
+    </form>
+</main>
+<!-- footer-->
+    <footer>
+        <span id="copy_footer">
+            <span class="copy_text">&copy; 2025 Line-O.</span> 
+            <span class="copy_text">Privacidade e Termos</span>
+        </span>
+        <div id="strip_footer"></div>
+    </footer>
+</body>
+</html>

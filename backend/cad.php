@@ -6,10 +6,10 @@
     $telephone = $_POST['telephone'];
     $age = $_POST['age'];
     $course = $_POST['course'];
-    $password = password_hash($_POST['password'], PASSWORD_DEFAULT);
+    $password = password_hash($_POST['senha'], PASSWORD_DEFAULT);
     
 
-    $sql = "INSERT INTO usuarios (nome, email, telephone, age, ourse, password) 
+    $sql = "INSERT INTO usuarios (nome, email, telefone, idade, curso, senha) 
     VALUES (?, ?, ?, ?, ?, ?)";
 
     $stmt = $con->prepare($sql);
@@ -18,7 +18,7 @@
         die("Erro na preparação de querry: " . $con->error);
     }
 
-    $stmt->bind_param("ssssss", $name, $email, $telefone, $idade, $curso, $senha);
+    $stmt->bind_param("ssssss", $name, $email, $telephone, $age, $course, $password);
 
     if($stmt->execute()){
         echo"Cadastro realizado";
